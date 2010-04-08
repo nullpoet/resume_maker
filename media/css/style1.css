@@ -1,0 +1,692 @@
+.hidden, .admin, .community_moderator {
+	display: none;	
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    background-color: #FFFFFF;
+    margin: 0px;
+}
+.top-menu-inner h1, 
+.top-menu-inner h2, 
+.top-menu-inner h3, 
+.top-menu-inner h4, 
+.top-menu-inner h5, 
+.top-menu-inner h6, 
+.top-menu-inner form, 
+.top-menu-inner input, 
+.top-menu-inner ul, 
+.top-menu-inner ol {
+    padding: 0px;
+    margin: 0px;
+}
+h2 {
+    font-size: 15px;
+	font-family:Arial, Helvetica, sans-serif;	
+    color: #0d78ab;
+    margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 15px;
+	color: #0d78ab;	
+}
+
+h4 {
+	font-size: 12px;
+	font-weight:400;
+	color: #0d78ab;
+	
+}
+
+h5 {
+	font-size: 13px;
+	font-weight:700;
+	vertical-align:text-top;	
+}
+h6 {
+	font-size: 12px;
+	vertical-align:text-top;	
+}
+
+a {
+    outline: none;	
+    text-decoration:none;
+}
+
+.main {
+    background-image: url(../images/footer.jpg);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    width: 100%;
+    float: left;
+    border-top-width: 7px;
+    border-top-style: solid;
+    border-top-color: #485b6c;
+    // text-align: center;
+    align: center;
+}
+.page {
+    width: 954px;
+    margin: 0 auto;
+    text-align: left;
+}
+.page-content {
+    float: left;
+    width: 954px;
+}
+
+/* Header Section Start */
+.header {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    height: 203px;
+    width: 954px;
+}
+.top-menu {
+    text-align: right;
+    float: right;
+    width: 680px;
+}
+.top-menu ul {
+    height: 40px;
+    list-style-type: none;
+}
+.top-menu ul li {
+    font-size: 15px;
+    color: #64921e;
+    display: inline;
+}
+.top-menu ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 40px;
+    color: #162430;
+    text-decoration: none;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.top-menu ul li a:hover {
+    color: #ffffff;
+}
+.header-bott {
+    float: left;
+    width: 954px;
+    margin-top: 118px;
+}
+.slogan {
+    float: left;
+}
+.slogan h1 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #485b6c;
+}
+.blue {
+    color: #007bc4;
+}
+.green {
+    color: #90d02a;
+}
+.emp-click {
+    float: right;
+    padding-top: 5px;
+}
+.emp-click h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #485b6c;
+}
+.emp-click h1 a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #485b6c;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.emp-click h1 a:hover {
+    color: #007bc4;
+}
+/* Header Section End */
+
+/* Body Section Start */
+.content {
+    width: 954px;
+	min-height:500px;
+    padding-top: 11px;
+    padding-bottom: 40px;
+}
+
+/* Leftpanel Section Start */
+.left-panel {
+    float: left;
+    width: 242px;
+}
+.left-login {
+    background-image: url(../images/left-green-rept.jpg);
+    background-repeat: repeat-y;
+    float: left;
+    width: 242px;
+}
+.left-login-header {
+    font-size: 13px;
+    line-height: 37px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-image: url(../images/left-green-top.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    height: 37px;
+    width: 242px;
+}
+
+.left-login-header div {
+	padding-left: 20px;
+	padding-top: 0px;
+}
+
+.left-login-body {
+    text-align: center;
+    float: left;
+    width: 242px;
+    padding-top: 10px;
+}
+
+.textbox {
+    background-image: url(../images/textbox-bg.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 23px;
+    width: 216px;
+    margin: 0 auto;
+}
+.textbox input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #9a9a9a;
+    background: none;
+    width: 200px;
+    border: none;
+    margin-top: 4px;
+}
+.forgot-submit {
+    color: #9a9a9a;
+    text-align: left;
+    width: 216px;
+    margin: 0 auto;
+}
+.forgot-submit a {
+    font-size: 11px;
+    line-height: 23px;
+    color: #666666;
+    text-decoration: none;
+}
+.forgot-submit a:hover {
+    text-decoration: underline;
+}
+.submit-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #85c226;
+    height: 23px;
+    float: right;
+    border: none;
+}
+.btn2{
+    background-color:rgb(2,141,206);
+    border:0px;
+    color:#FFFFFF;
+    display:block;
+    font-weight:bold;
+    height:24px;
+    line-height:21px;
+    text-align:center;
+    width:134px;
+}
+.left-login-footer {
+    background-image: url(../images/left-green-bottom.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    height: 14px;
+    width: 242px;
+}
+.left-signup-button {
+    float: left;
+    width: 242px;
+}
+a.signup-button {
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-image: url(../images/left-blue-btn.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    display: block;
+    height: 40px;
+    width: 237px;
+    margin: 0 auto;
+}
+a.signup-button:hover {
+    color: #000000;
+}
+/* Leftpanel Section End */
+
+/* Midpanel Section Start */
+.mid-panel {
+    float: left;
+    width: 504px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.mid-flash {
+    float: left;
+    width: 504px;
+}
+.gap {
+    clear: both;
+}
+.mid-banner {
+    float: left;
+    width: 464px;
+    height: 90px;
+    background-image: url(../images/mid-banner.jpg);
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+}
+.mid-banner p {
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 0 0 12px 0;
+}
+/* Midpanel Section End */
+
+/* Rightpanel Section Start */
+.right-panel {
+    width: 194px;
+    float: right;
+}
+.latest-section {
+    background-image: url(../images/right-latest-rept.jpg);
+    background-repeat: repeat-y;
+    float: left;
+    width: 194px;
+    font-size: 11px;
+}
+.latest-head {
+    float: left;
+    width: 194px;
+}
+.latest-head h6 {
+    cursor: pointer;
+}
+.h6-1 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 35px;
+    color: #162430;
+    text-indent: 20px;
+    background-image: url(../images/h6-1-bg.jpg);
+    background-repeat: no-repeat;
+    height: 35px;
+}
+.h6-2 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 35px;
+    color: #162430;
+    text-indent: 20px;
+    background-image: url(../images/h6-2-bg.jpg);
+    background-repeat: no-repeat;
+    height: 35px;
+}
+.h6-3 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 35px;
+    color: #162430;
+    text-indent: 20px;
+    background-image: url(../images/h6-3-bg.jpg);
+    background-repeat: no-repeat;
+    height: 35px;
+}
+.latest-content {
+    float: left;
+    width: 194px;
+    padding: 10px 0;
+    font-size: 12px;
+}
+ul.latest-listings {
+    margin: 0 20px 0 35px;
+    list-style-image: url(../images/right-bullet.jpg);
+}
+ul.latest-listings li {
+    margin-bottom: 10px;
+}
+.icon-section {
+    background-image: url(../images/home-icon-bg.jpg);
+    background-repeat: no-repeat;
+    text-align: left;
+    float: left;
+    height: 57px;
+    width: 180px;
+    padding-top: 10px;
+    padding-left: 14px;
+}
+
+.icon-section-left {
+    background-image: url(../images/home-icon-bg-left.jpg);
+    background-repeat: no-repeat;
+    text-align: left;
+    float: left;
+    height: 57px;
+    width: 242px;
+    padding-top: 10px;
+    padding-left: 14px;
+}
+
+
+.icon-section p {
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 3px;
+    margin-left: 0px;
+}
+/* Rightpanel Section Start */
+
+/* Body Section End */
+
+/* Footer Section Start */
+.footer {
+    font-size: 12px;
+    line-height: 45px;
+    color: #757575;
+    text-align: right;
+    height: 77px;
+    width: 954px;
+    float: left;
+    clear: both;
+}
+.footer a {
+    color: #757575;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.footer a:hover {
+    color: #000000;
+}
+/* Footer Section End */
+
+
+/* RSS ticker start */
+
+
+
+/* RSS ticker end   */
+
+/* About us */
+.us_name
+{
+	color:#00BB00;
+	font-size:large;
+	font-weight:bold;
+}
+
+
+
+.submit-btn{
+    background-color:#85C226;
+    border:1px solid #999999;
+    color:#FFFBF0;
+    font-weight:bold;
+    height:25px;
+    margin-left:20px;
+    width:100px
+}
+
+.login_error,.registration_error{
+    color:red;
+    padding-left:10px
+}
+
+.big-font2{
+    color:#222222;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:12px;
+    font-weight:500
+}
+
+
+.btn_gen1{
+    background-image:url(../images/btn1.jpg);
+    background-repeat:no-repeat;
+    border-width:0px;
+    color:#FFFFFF;
+    display:block;
+    font-size:12px;
+    font-weight:bold;
+    height:23px;
+    line-height:21px;
+    text-align:center;
+    width:61px
+}
+
+.btn_gen2{
+    background-image:url(../images/btn3.jpg);
+    background-repeat:no-repeat;
+    border-width:0px;
+    color:#FFFFFF;
+    display:block;
+    font-size:12px;
+    font-weight:bold;
+    height:23px;
+    line-height:21px;
+    text-align:center;
+    width:61px;
+}
+.poll_table{
+	padding-left:8px;
+}
+.polltable{
+border-bottom: dashed solid #333333;
+	}
+	
+.univlinks{
+font-size:12px;
+margin-left:10px;
+font-weight:600;
+color:#0066FF;
+}	
+	
+/*tabs
+
+/* $Id: example.css,v 1.5 2006/03/27 02:44:36 pat Exp $ */
+
+/*--------------------------------------------------
+  REQUIRED to hide the non-active tab content.
+  But do not hide them in the print stylesheet!
+  --------------------------------------------------*/
+.tabberlive .tabbertabhide {
+ display:none;
+}
+
+/*--------------------------------------------------
+  .tabber = before the tabber interface is set up
+  .tabberlive = after the tabber interface is set up
+  --------------------------------------------------*/
+.tabber {
+padding-top:20px;
+}
+.tabberlive {
+ margin-top:1em;
+}
+
+/*--------------------------------------------------
+  ul.tabbernav = the tab navigation list
+  li.tabberactive = the active tab
+  --------------------------------------------------*/
+ul.tabbernav
+{
+ margin:0;
+ padding: 3px 0;
+ border-bottom: 1px solid #778;
+ font: bold 12px Verdana, sans-serif;
+}
+
+ul.tabbernav li
+{
+ list-style: none;
+ margin: 0;
+ display: inline;
+}
+
+ul.tabbernav li a
+{
+ padding: 3px 0.5em;
+ margin-left: 3px;
+ border: 1px solid #778;
+ border-bottom: none;
+ background: #DDE;
+ text-decoration: none;
+}
+
+ul.tabbernav li a:link { color: #448; }
+ul.tabbernav li a:visited { color: #667; }
+
+ul.tabbernav li a:hover
+{
+ color: #000;
+ background: #AAE;
+ border-color: #227;
+}
+
+ul.tabbernav li.tabberactive a
+{
+ background-color: #fff;
+ border-bottom: 1px solid #fff;
+}
+
+ul.tabbernav li.tabberactive a:hover
+{
+ color: #000;
+ background: white;
+ border-bottom: 1px solid white;
+}
+
+/*--------------------------------------------------
+  .tabbertab = the tab content
+  Add style only after the tabber interface is set up (.tabberlive)
+  --------------------------------------------------*/
+.tabberlive .tabbertab {
+ padding:5px;
+ border:1px solid #aaa;
+ border-top:0;
+
+ /* If you don't want the tab size changing whenever a tab is changed
+    you can set a fixed height */
+
+ /* height:200px; */
+
+ /* If you set a fix height set overflow to auto and you will get a
+    scrollbar when necessary */
+
+ /* overflow:auto; */
+}
+
+/* If desired, hide the heading since a heading is provided by the tab */
+.tabberlive .tabbertab h2 {
+ display:none;
+}
+.tabberlive .tabbertab h3 {
+ display:none;
+}
+
+/* Example of using an ID to set different styles for the tabs on the page */
+.tabberlive#tab1 {
+}
+.tabberlive#tab2 {
+}
+.tabberlive#tab2 .tabbertab {
+ height:200px;
+ overflow:auto;
+}
+.form_error{
+    color:#FF0000;
+    font-size:12px;
+    font-weight:bold;
+    margin:15px
+}
+
+.post {
+	border-bottom: #ccc dotted 1px;
+	padding: 10px;
+	width: 700px;
+}
+.post h3 {
+	color: #B50062;
+}
+
+
+.post h3 a:hover, .full-post h3 a:hover {
+	color: #216187;
+	border-bottom: #B50062 dotted 1px;
+}
+.post a:visited, .full-post a:visited {
+	color: inherit;
+	text-decoration: inherit;
+}
+.post a, .full-post a {
+	color: inherit;
+	text-decoration: inherit;
+}
+.post div.meta, .full-post div.meta {
+	color: #999;
+	padding-top: 10px;
+	font-size: 11px;
+}
+.post p, .full-post p {
+	font-size: 12px;
+}
+.post img.image, .full-post img.image {
+	float: right;
+	padding: 10px;
+	border: solid 1px #AAA;
+	margin-left: 20px;
+	margin-right:20px;
+}
+
+.schedulertable{
+width:100%;
+border-color:#666666;
+background:#CCCCCC;
+}
+
+.big-font1{
+    color:#000000;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:16px;
+    font-weight:bolder;
+    margin:0px;
+    padding:0px
+}
+
+.bold-blue {
+    font-size: 18px;
+    color: #008fd3;
+}
+
+
+.normal-blue {
+    font-size: 16px;
+    color: #008fd3;
+}
